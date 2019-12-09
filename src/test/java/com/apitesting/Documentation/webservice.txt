@@ -1,0 +1,15 @@
+ Http Methods:
+  Get
+  Put
+  Post
+  Delete
+
+Https Status code:
+ 200 Ok
+ 201 Created
+ 204 No Content
+ 400 Bad Request
+ 401 UnAuthorized
+ 404 Not Found
+ 409 Conflict
+ 500 Internal Server
