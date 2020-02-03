@@ -32,7 +32,7 @@ public class Webservices {
     public static Response Put(String strURI,String strJson){
         RequestSpecification requestSpecification= RestAssured.given().body(strJson);
         requestSpecification.contentType(ContentType.JSON);
-        Response response=requestSpecification.post(strURI);
+        Response response=requestSpecification.put (strURI);
         return response;
     }
 

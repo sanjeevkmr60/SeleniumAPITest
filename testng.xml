@@ -3,11 +3,11 @@
 <suite name="loan_department">
     <test name="API Tests">
         <classes>
-            <class name="com.apitesting.testscripts.TC_001">
-                <methods>
+            <class name="com.apitesting.testscripts.TC_001"/>
+               <!-- <methods>
                     <include name = "verifyGetFDI"/>
                 </methods>
-            </class>
+            </class>-->
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

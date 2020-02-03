@@ -7,7 +7,12 @@ public enum EndpointURL {
     DELETE("/country"),
     GET_COUNTRIES("/country"),
     GET_DRUG("search=patient.drug.openfda.pharm_class_epc:\"nonsteroidal+anti-inflammatory+drug\"&count=patient" +
-            ".reaction.reactionmeddrapt.exact");
+            ".reaction.reactionmeddrapt.exact"),
+    GET_USERS("api/users?page=2"),
+    POST_CREATE_USER("api/users"),
+    DELETE_USER("api/users/2"),
+    UPADTE_USER("api/users/2"),
+    POST_REGISTER("api/register");
 
    String resourcePath;
 

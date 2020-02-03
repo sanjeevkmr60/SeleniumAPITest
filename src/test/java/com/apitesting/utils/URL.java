@@ -5,4 +5,6 @@ public class URL {
             ".pharm_class_epc:\"nonsteroidal+anti-inflammatory+drug\"&count=patient.reaction.reactionmeddrapt.exact";
     public static final String fixURLFDI="https://api.fda.gov/drug/event.json?";
     public static final String fixURL1="https://api.fda.gov/drug/event.json";
+    public static final String  getURL="https://reqres.in/";
+
 }
