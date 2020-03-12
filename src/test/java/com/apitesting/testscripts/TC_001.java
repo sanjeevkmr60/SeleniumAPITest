@@ -90,7 +90,7 @@ public class TC_001 {
         response= Webservices.Delete (url);
         System.out.println ( response.getBody().asString());
         if(response.statusCode ()==204){
-            System.out.println (response.statusCode () );
+            System.out.println (response.statusCode () ); 
             System.out.println ("User is Deleted" );
         }
     }
